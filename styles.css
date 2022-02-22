@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --VeryDarkMagenta: hsl(300, 43%, 22%);
+  --SoftPink: hsl(333, 80%, 67%);
+  --DarkGrayishMagenta: hsl(303, 10%, 53%);
+  --LightGrayishMagenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  color: var(--VeryDarkMagenta);
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-weight: 700;
+}
+p {
+  font-size: 15px;
+}
+
+.bgC {
+  background-color: var(--LightGrayishMagenta);
+}
+.cooo {
+  background-color: var(--White);
+}
+.coo {
+  color: var(--DarkGrayishMagenta);
+}
+.co {
+  background-color: var(--VeryDarkMagenta);
+  color: var(--LightGrayishMagenta);
+  border-radius: 7px;
+}
+
+.profile {
+  width: 32%;
+  height: 200px;
+  overflow: scroll;
+  box-shadow: 1px 1px 3px 0px rgb(85, 79, 79), -1px -1px 3px 0px rgb(85, 79, 79);
+}
+
+.profile::-webkit-scrollbar {
+  display: none;
+}
+
+.profile div div p {
+  padding: 0;
+  margin: 0;
+}
+.cot {
+  color: var(--SoftPink);
+}
+@media (max-width: 767px) {
+  .profile {
+    width: 100%;
+  }
+}

@@ -13,49 +13,149 @@
     />
 
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    10,000+ of our users love our products.
+    <main>
+      <!--this is main-->
+      <div class="container card shadow my-4 px-5 cooo">
+        <div class="row">
+          <!--top section-->
+          <div class="top d-md-flex py-5">
+            <div class="col-12 col-md-6 text-center text-md-start">
+              <div class="col-md-8">
+                <h1>10,000+ of our users love our products.</h1>
+              </div>
+              <div class="col-md-9">
+                <p class="coo">
+                  We only provide great products combined with excellent
+                  customer service. See what our satisfied customers are saying
+                  about our services.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex p-3 flex-column justify-content-evenly text-center"
+            >
+              <div class="card align-self-md-start p-3 mb-2 bgC">
+                <div class="d-flex flex-column flex-md-row">
+                  <span>⭐⭐⭐⭐⭐</span> <span>Rated 5 Stars in Reviews</span>
+                </div>
+              </div>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+              <div class="card align-self-md-center p-3 mb-2 bgC">
+                <div class="d-flex flex-column flex-md-row">
+                  <span>⭐⭐⭐⭐⭐</span>
+                  <span>Rated 5 Stars in Report Guru</span>
+                </div>
+              </div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+              <div class="card w-auto align-self-md-end p-3 bgC">
+                <div class="d-flex flex-column flex-md-row">
+                  <span>⭐⭐⭐⭐⭐</span> <span>Rated 5 Stars in BestTech</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!--bot-->
+          <div
+            class="bot d-flex flex-column flex-md-row pb-4 justify-content-md-between align-items-center"
+          >
+            <!--prfile componennt -->
+            <div class="p-3 profile co">
+              <div
+                class="d-flex justify-content-start align-items-center w-100 pb-3"
+              >
+                <img
+                  width="40"
+                  height="40"
+                  class="rounded-circle"
+                  src="/images/image-colton.jpg"
+                  alt="image-colton"
+                />
+
+                <div class="ps-4">
+                  <p class=""><strong>Colton Smith</strong></p>
+                  <p class="cot"><span>Verified Buyer</span></p>
+                </div>
+              </div>
+              <div class="w-100">
+                <p>
+                  "We needed the same printed design as the one we had ordered a
+                  week prior. Not only did they find the original order, but we
+                  also received it in time. Excellent!"
+                </p>
+              </div>
+            </div>
+
+            <div class="p-3 profile co mt-4">
+              <div
+                class="d-flex justify-content-start align-items-center w-100 pb-3"
+              >
+                <img
+                  width="40"
+                  height="40"
+                  class="rounded-circle"
+                  src="/images/image-irene.jpg"
+                  alt="image-irene"
+                />
+
+                <div class="ps-4">
+                  <p class=""><strong>CIrene Roberts </strong></p>
+                  <p class="cot"><span>Verified Buyer</span></p>
+                </div>
+              </div>
+              <div class="w-100">
+                <p>
+                  "Customer service is always excellent and very quick turn
+                  around. Completely delighted with the simplicity of the
+                  purchase and the speed of delivery."
+                </p>
+              </div>
+            </div>
+
+            <div class="p-3 profile co mt-5">
+              <div
+                class="d-flex justify-content-start align-items-center w-100 pb-3"
+              >
+                <img
+                  width="40"
+                  height="40"
+                  class="rounded-circle"
+                  src="/images/image-anne.jpg"
+                  alt="image-anne"
+                />
+
+                <div class="ps-4">
+                  <p class=""><strong> Anne Wallace </strong></p>
+                  <p class="cot"><span>Verified Buyer</span></p>
+                </div>
+              </div>
+              <div class="w-100">
+                <p>
+                  "Put an order with this company and can only praise them for
+                  the very high standard. Will definitely use them again and
+                  recommend them to everyone!"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
